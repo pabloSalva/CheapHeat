@@ -1,5 +1,28 @@
--pipenv shell
--pip3 install django
--pip3 install djangorestframework
--pip3 install django-cors-headers
+Primero clonar el proyecto
+
+git clone https://github.com/pabloSalva/CheapHeat.git
+
+
+
+
+Luego instalar las dependencias de django para el entorno de desarrollo
+
+Entorno Windows
+..
+
+Entorno Linux
+
+-pipenv shell //entorno virtual
+-pip3 install django  //dependencias de django
+-pip3 install djangorestframework  //dependencias de djangorestframework
+-pip3 install django-cors-headers //dependencias para autenticacion
+
+
+
+
+
+
+
+
+
 
