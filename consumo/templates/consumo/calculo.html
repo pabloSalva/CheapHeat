@@ -1,0 +1,180 @@
+ 
+ {% extends 'consumo/ppal.html' %}
+ {% load static %}
+
+ {% block title %}
+ <title>Calculo electrico</title>
+ {% endblock  %}
+ 
+
+ {% block content %}
+<!-- pagina de calculo de consumo electrico -->
+
+
+
+
+
+
+<div class="container my-5">
+<div class="card text-black  py-1  crema">
+<div class="card-body">
+    <h1 class="text-secondary">
+        Simulador de consumo eléctrico
+      </h1>
+
+  <!--selección de entidad y tarifa eléctrica-->
+  <h2 class="center text-secondary">Selección de Proveedor que suministra el servicio y tarifa</h2>
+  <div class="container">
+    <button class="btn btn-secondary text-white font-weight-bold" id="cargarEntidad">Proveedor</button>
+    <div>
+    
+    <select class="form-control mr-sm-2"  id="entidad" >
+      <option>Entidades</option>
+      
+    </select>
+  
+    
+      <h3 class="text-secondary">Tarifas</h3>
+    <select class="form-control mr-sm-2" id="tarifas" >
+      <option>Tarifas</option>
+      
+    </select>
+  </div>
+  <table class="table table-hover table-condensed table-bordered" id="tablaTarifa">
+    <thead>
+      <tr>
+        <td class="font-weight-bold text-danger">Cargo fijo </td>
+        <td>precio Kw/h</td>
+      </tr>
+    </thead>
+    <tbody id="cuerpoTablaTarifa">
+
+    </tbody>
+  </table>
+  </div>
+
+ 
+
+
+
+
+
+  <!--seleccion de artefacto-->
+  <h1 class="center">Seleccione categoría de artefacto</h1>
+
+<div class="container">
+<button type="button" class="btn btn-primary traer botonaire " data-toggle="modal" data-target=".bd-example-modal-xl" data-whatever="Aires" id="Aires"></button>
+
+
+
+<button type="button" class="btn btn-primary traer botoncalefactorgas " data-toggle="modal" data-target=".bd-example-modal-xl" data-whatever="Calefactores" id="Calefactores"></button>
+
+</div>
+
+<!-- Extra large modal -->
+<div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+        <!--tabla modal -->
+          <div class="row" >
+            <div class="col-sm-12" >
+              <table class="table table-hover table-condensed table-bordered">
+                <thead>
+                  <tr>
+                    <td>Selección</td>
+                    <td>Artefacto</td>
+                    <td>Marca</td>
+                    <td>Modelo</td>
+                    <td>Consumo</td>
+                  </tr>
+                </thead>
+                <tbody id="contenidomodal">
+                
+                </tbody>
+              </table> 
+              <button type="button" class="btn btn-primary" id="Agregar" > Agregar</button> 
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--tabla generada con artafactos seleccionados en el modal-->
+
+<div class="row my-5" >
+        <div class="col-sm-12" >
+          <table class="table  table-striped table-dark table-bordered" id="tabla">
+            <thead class="thead-dark">
+            <tr>
+              <td>Artefacto</td>
+              <td>Marca</td>
+              <td>Modelo</td>
+              <td>Consumo(KW)</td>
+              <td>Cantidad</td>
+              <td>Horas</td>
+              <td>Dias</td>
+              
+              <td>Eliminar</td>
+            </tr>
+            </thead>
+            <tbody id="contenido">
+            
+            </tbody>
+            
+          </table>  
+          <button type="button" class="btn btn-secondary" id="calcular"> Calcular</button>
+          
+      
+        </div>
+      </div>
+	  {% block precio%}
+    <div class="card text-black  py-1 text-center crema">
+      <div class="card-body">
+      <p align="left" class="font-weight-bold text-danger" id="precio"></p>
+        
+      </div>
+    </div>
+    
+
+
+<div class="card text-black  py-1 text-center crema">
+  <div class="card-body">
+  <p align="left" class="font-weight-bold text-danger" id="consumo"></p>
+ 
+    
+  </div>
+</div>
+
+<div class="card text-black  py-1 text-center crema">
+    <button align="left" class="btn btn-secondary float-left" id="cantPaneles">Cálculo de cantidad de paneles</button>
+  <div id="infoPanel" >
+    
+  </div>
+  <div class="card-body" id="panel">
+      
+    
+    
+  </div>  
+  
+</div>
+    {% endblock %}
+
+    
+    </div>
+  </div>
+</div>
+   
+  
+    
+ {% endblock content %}
+ 
+
+ {% block extraJS %}
+    <script  src="{% static 'js/app1.js' %}"></script>
+    <script src="{% static 'js/gestionEntidad.js'%}"></script>
+    <script src="{% static 'js/calculoPaneles.js'%}"></script>
+ {% endblock %}

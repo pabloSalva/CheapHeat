@@ -1,0 +1,156 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+{% block title %}
+  <title>CheapHeat</title>
+{% endblock %}
+  <!-- Bootstrap core CSS -->
+ 
+  
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+   <!-- Bootstrap CSS 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  -->
+  
+  <link href="{% static 'css/small-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="container">
+
+  {% block navegacion %}
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'indice' %}">Cheap Heat</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'indice' %}">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          {% if user.is_authenticated %}
+          <li >
+            <a class="nav-link" href="#">{{ user.get_username }}(Docente)</a>
+          </li>
+          
+          <li class="nav-link"> 
+            <a href="#">Logout</a> 
+          </li>  
+          
+          {% else %}
+          <li><a href="#">Login</a></li>   
+           {% endif %} 
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% endblock %}
+
+  <!-- Page Content -->
+  {% block content %}
+  <div class="container align-items-center">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="{% static 'img/eficienciaA++.jpg' %}" alt="">
+      </div>
+      <!-- /.col-lg-8    -->
+      <div class="col-lg-5 align-items-center">
+        <h1 class="color">calculador de consumo</h1>
+        
+        
+            <div>
+              <h2>
+          <p class="color">Cálculo de consumo eléctrico</p>
+        </h2>  
+          <a class="btn btn-primary electricidad font-dark" href="{% url 'calculo' %}"></a>
+          </div>
+          <div>
+            <h2>
+          <p class="color  my-5">Cálculo de consumo de gas</p>
+        </h2>
+            <a class="btn btn-primary gas" href="{% url 'calculoGas' %}"></a>
+        
+
+        
+        
+        
+      </div>
+      <a class="btn btn-primary" href="{% url 'sugerenciasGas' %}">Sugerencias de ahorro de gas</a>
+      <!-- /.col-md-4 -->
+    </div>
+    
+    
+    
+    <!-- /.row -->
+
+    <!-- Call to Action Well bg-secondary my-5 card py-4 -->
+    {% block precio%}
+ 
+    {% endblock %}
+
+  
+    {% block cartas %}
+    
+  
+    {% endblock  %}
+
+  </div>
+  {% endblock %}
+  <!-- /.container -->
+  
+  {% block footer%}
+  <!-- Footer <div class="container">  </div>  <a  class="btn opacity botonLupa" href="#"></a>-->
+  <footer class="py-5 ">
+    
+    
+    
+      <p class="m-0 text-center text-black">UTN-FRLP</p>
+    <a href="http://gidas.frlp.utn.edu.ar/index.php/staff/">
+    <img class ="opacity" src="{% static 'img/gidas.png'%}" style="position: absolute; top: 0; right: 0;" />
+    </a> 
+  
+  
+    <!-- /.container -->
+  </footer>
+  {% endblock %}
+
+
+
+  <!-- Bootstrap core JavaScript-->
+    {% block JS %} 
+  
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  {% endblock %}
+   
+
+  {% block extraJS %}
+  {% endblock %}
+</body>
+
+</html>

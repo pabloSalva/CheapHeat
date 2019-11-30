@@ -1,0 +1,23 @@
+{% extends 'consumo/ppal.html' %}
+{% load static %}
+
+{% block title %}
+<title>Pagina Hogares Eficientes</title>
+{% endblock  %}
+
+
+{% block content %}
+<h1 class="text-secondary">Construcción de vivienda energéticamente eficiente</h1>
+<img src="{% static 'img/Construccion1.png' %}" alt="">
+
+
+
+<a href="{% url 'nuevaVivienda' %}">
+
+    <button class="btn btn-btn" id="NuevoProytecto">nuevo proyecto</button>
+
+</a>
+
+
+
+{% endblock content%}

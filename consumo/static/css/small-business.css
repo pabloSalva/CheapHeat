@@ -1,0 +1,138 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template-overviews/small-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
+ */
+html{
+  min-height: 100%;
+  position: relative;
+
+} 
+body {
+  margin: 0;
+  padding-top: 56px;
+  margin-bottom: 200px;
+
+
+
+
+}
+
+/* para variar el grado de opacidad de los elmentos*/
+.opacity{
+  background-color:rgb(173,144,144);
+  opacity:0.5; /* Opacidad 60% */
+  width:300px;
+  height:100px;
+}
+p.color{
+  
+  font: icon
+}
+footer{
+  position:absolute;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+  text-decoration-color: black;
+  background: linear-gradient(90deg, whitesmoke 10%, rgb(173, 144, 144) 90%);
+   
+   
+}
+
+.botonLupa{
+  background-image:url("../img/lupaGidas.png");
+  height:80px;
+  width:80px;
+}
+
+.crema{
+  background-color: whitesmoke
+}
+.botoncalefactorgas{
+  background-image:url("../img/icono calefactor.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+.botoncocinagas{
+  background-image:url("../img/iconoCocina.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+.botoncalefon{
+  background-image:url("../img/iconoCalefon.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+.botontermotanque{
+  background-image:url("../img/iconoTermotanque.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+
+.botoncaldera{
+  background-image:url("../img/iconoCaldera.jpg");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+
+.botonaire{
+  background-image:url("../img/iconoAire.jpg");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+
+
+.botonlineablanca{
+  background-image:url("../img/iconoLBlanca.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+.gidas{
+  background-image:url("../img/gidas.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+
+.gas{
+  background-image:url("../img/llamaGas.png");
+  height:108px;
+  width:156px;
+  
+  
+
+}
+
+.electricidad{
+  background-image:url("../img/calculoElectrico.jpg");
+  height:108px;
+  width:156px;
+  
+  
+
+}

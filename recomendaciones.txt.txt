@@ -1,0 +1,115 @@
+KIT SOLAR de 1000 WATTS 220 VOLTS AUT�NOMO CASA de CAMPO CORTES DE LUZ MAS AUTONOM�A
+
+INCLUYE
+
+2 Panel de 160 W Policristalino (Vida �til de 25 a 30 a�os). Medidas en mil�metros (1500 x 676 x 30).
+1 Regulador de carga 12V � 30 A Inteligente (con display y puerto USB).
+1 Conector MC4 para instalar los paneles en paralelo
+2 Bater�a 12 V � 110 Ah VZH Industria Argentina de uso Solar y Estacionaria.
+1 Inversor 12 V a 220 V � 1000 W onda modificada Probattery o Ltceco
+1 juegos de cable, para conexi�n a bater�as
+
+CON ESTE EQUIPO PODES ALIMENTAR
+
+� TV
+� 1 computadora
+� 1 heladera con frezzer
+� Cargar Celulares
+� 6 a 8 lamparas Led de 3 a 4 Watts
+� Peque�os electrodom�sticos
+� Cualquier electrodom�stico que no supere los 1000 watts con picos m�ximos de arranque de 2500 watts
+
+GENERALIDADES
+
+Es escalable, ampliable.
+Incluye los cables inversor bater�a
+Incluye Instructivo
+El regulador con USB proteje la bater�a de sobrecargas
+Los paneles toleran granizadas
+Son autoinstalables listos para Usar y libre de Mantenimiento.
+
+
+
+------------------------------------------------------------
+
+
+
+para 270 W
+
+Detalles del producto: "ND-AK270"
+
+Tipo de c�lula: Policristalina
+
+Potencia nominal W / p: 270,0 W
+
+Optimizador incl .: no
+
+
+--------------------------------------------------------------
+
+ > 1000 W
+
+
+5000 W: En muchos lugares, los usuarios de instalaciones fotovoltaicas est�n obligados a disponer de una funci�n de gesti�n para la inyecci�n cero a red. Esta funci�n permite reducir la producci�n del sistema, lo que puede ser especialmente importante si se sobrecargan tramos de la red de distribuci�n o transmisi�n, tambi�n en regiones que experimentan un r�pido desarrollo en energ�as renovables.
+
+MUST POWER ofrece una solucion para la gesti�n de inyecci�n a red en instalaciones FV. Adem�s, conectando un dispositivo de control remoto al inversor con la ayuda del transmisor WI FI ofrece un control din�mico de inyecci�n cero, que tiene en cuenta la tasa actual de autoconsumo. Esto permite maximizar el uso de la energ�a solar autogenerada. 
+
+NO REQUIERE NINGUNA HABILITACION NI MEDIDOR BIDIRECCIONAL
+
+////////////////////////////////////////////////////////////////
+
+CONTENIDO DEL KIT OFRECIDO MONOFASICO 5KW INYECCION CERO
+
+- 1 INVERSOR MUST ON GRID MONOFASICO 5.000 WATTS POR HORA (diario 25.000 watts/dia promedio a�o).
+- 1 SENSOR INYECCI�N CERO DE EXCEDENTES (no requiere medidores bidireccionales).
+- 1 TRANSMISOR WI FI DE DATOS. APP MOBILE
+
+* Todos los manuales en espa�ol. Plano de conexi�n.
+
+////////////////////////////////////////////////////////////////
+
+INVERSOR ON GRID MUST POWER 
+
+Serie PH5000 (2.5-6KW)
+Los inversores fotovoltaicos de la serie PH5000 tienen plenamente en cuenta las necesidades de los clientes finales, al mismo tiempo que utilizan un rendimiento excelente, utilizan el LED como pantalla de estado del inversor y mejoran la vida del producto. Usando el control digital DSP, podr�a permitirse un amplio rango de voltaje de red, tener una gama completa de caracter�sticas de protecci�n; para maximizar los beneficios al mismo tiempo, mejorar enormemente la confiabilidad del producto.
+
+Caracteristicas:
+Tasa de potencia: 5 KW
+Amplia gama de voltaje MPPT 100-500V
+Eficacia MPPT hasta 99.50%.
+Opcional control integrado antirreflujo
+M�ltiples comunicaciones: USB, WIFI etc.
+Monitorizaci�n de inversores libremente a trav�s de la aplicaci�n de tel�fono m�vil.
+Factor de potencia ajustable continuo
+Garant�a de cinco a�os
+
+COMUNICACI�N WIFI
+Puede descargar esta aplicaci�n en su tel�fono celular y monitorear todo el sistema, sabr� cu�nta electricidad genera y vende el sistema a la empresa de servicios p�blicos.
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+
+el consumo electrico en aires acondicionados es aproximadamente un tercio de la potencia.
+
+Al momento de comprar un electrodoméstico nuevo, se recomienda elegir aquellos que poseen Etiqueta de Eficiencia Energética Clase
+“A”.
+
+En un aire acondicionado "clase A" te ahorrás hasta un 40% de luz respecto del consumo de otro que no es de consumo eficiente, 
+pero sale más económico a la hora de comprarlo. No obstante, si bien los aparatos de etiqueta "A" son bastante más caros,
+ "generalmente, en un año y medio de uso, recuperás la diferencia del costo inicial", explicó Andrea Heins, ex subsecretaria 
+ de Ahorro y Eficiencia Energética.
+
+
+ https://mega.nz/#!P6JkwCzL!aw32HWo2aO_wzTqaUtWV9h1C602XG3QqwzdtLU3VXEo
+
+
+ https://www.programasvirtualespc.net/windows/activar-y-validar-windows-7/
+
+
+
+
+Pagina para poder configurar el middleware
+ https://www.techiediaries.com/django-cors/
