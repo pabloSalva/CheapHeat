@@ -8,7 +8,27 @@ git clone https://github.com/pabloSalva/CheapHeat.git
 Luego instalar las dependencias de django para el entorno de desarrollo
 
 Entorno Windows
-..
+(descargar python 3.8 y ejecutar. al momento de instalar clickear en donde dice agregar a PATH)
+
+-abrir la consola de windows e ir al directorio donde está el proyecto clonado (en nuestro caso sería el directorio CheapHeat)
+-una vez ahí probamos que python esté instalado correctamente. tipeamos: py --version (enter. debería aparecer version 3.8)
+-instalamos entorno virtual tipeando: py -m venv Cheap
+-activamos el entorno virtual tipeando: "Cheap/Scripts/activate"
+-con el entorno activado instalamos django:	 py -m pip install --upgrade pip
+						 py -m pip install django
+-instalamos djangorestframework: py -m pip install djangorestframework
+-instalamos dependencias para autenticacion: py -m pip install django-cors-headers
+
+-ejecutamos el servidor que trae django: py manage.py runserver
+
+nos va a mostrar unos mensajes y en la anteúltima linea nos dice la direccion ip local del servidor que es por
+defecto http://127.0.0.1:8000
+Si entras a esa direccion no vas a ver la app porq ya tiene rutas hechas. tienes q agregar http://127.0.0.1:8000/index
+
+
+y verás la app.
+
+
 
 Entorno Linux
 
@@ -19,8 +39,9 @@ Entorno Linux
 
 
 
+Tutorial por si te gusta:
 
-
+https://tutorial.djangogirls.org/es/django_installation/
 
 
 
