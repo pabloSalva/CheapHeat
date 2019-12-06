@@ -13,33 +13,32 @@ $('#exampleModal').on('show.bs.modal', function (event) {
   })
 
 
-  var formulario = document.getElementById('formulario1');  
-  //console.log(formulario[0].value());
-  
+  var formulario = document.getElementById('formulario1'); 
+
+
 
   formulario.addEventListener('submit',function (e) {
     e.preventDefault();
 
     var datos = new FormData(formulario);
 
-    // console.log(datos.get('nombre_material'));
-    
-    // datos.append("nombre_material":{})
+  
+  // conversion de datos de formuloario a JSON
 
-  //   var datos = {
-  //                username : "pablin",
-  //                nombre_material : "ladrillo hueco",
-  //                tipo : "Ladrillo",
-  //                espesor : "0.18",
-  //                transmitancia_termica : "0.48",
-  //                estado : "Soldido",
-  // }
-    
+    var dat = {
+      nombre_material: datos.get("nombre_material"),
+      tipo : datos.get("tipo"),
+      espesor : datos.get("espesor"),
+      transmitancia_termica: datos.get("conductividad_termica"),
+      estado : datos.get("estado"),
+      users : [1]
+    };
+
     var url = 'http://localhost:8000/api/materiales/'
 
     fetch(url,{
       method:'POST',
-      body:JSON.stringify(datos),
+      body:JSON.stringify(dat), 
       headers:{
         'Content-Type' : 'application/json'
       }
@@ -47,7 +46,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
     .then(res => res.json())
     .catch(error => console.error('Error: ',error))
     .then(response => console.log('Success: ', response));
-    console.log("datos: ",datos);
+    console.log("datos: ",dat);
     
   });
 
