@@ -52,6 +52,11 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
 
 
+//llamado a ver listado de materiales
+
+
+
+
 
 
   //$("#cargaMaterial").click(function(){
