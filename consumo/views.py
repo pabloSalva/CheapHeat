@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from django.contrib.auth.models import User,Group
 from django.contrib.auth.forms import UserCreationForm
-from django.views.generic import CreateView
+from django.views.generic import CreateView,ListView
 from django.urls import reverse_lazy
 from consumo.forms import RegistroForm
+from consumo.models import Material
 
 
 class RegistroUsiario(CreateView):
@@ -48,3 +49,14 @@ def construccion(request):
 
 def nueva(request):
     return render(request, "Constructores/nuevaVivienda.html")    
+
+# def listado(request):
+#     return render(request, "Constructores/materiales.html")
+
+
+class ListaMaterial(ListView):
+    model = Material
+    template_name = 'Constructores/material_list.html'
+
+
+

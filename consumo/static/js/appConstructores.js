@@ -59,33 +59,7 @@ $('#exampleModal').on('show.bs.modal', function (event) {
 
 
 
-  //$("#cargaMaterial").click(function(){
-    
-    
-    //const data = new FormData(document.getElementById('formulario1'));
-    //console.log(formData);
-    
-    //funcion que envìa los datos por post
-
-    //var url = 'http://localhost:8000/api/materiales';
-    //var formData = JSON.stringify($("#formulario1").serializeArray());
-    //var data = {username: 'example'};
-
-    //fetch(url, {
-      // method: 'POST', // or 'PUT'
-       //body: JSON.stringify(formData), // data can be `string` or {object}!
-       //headers:{
-      //'Content-Type': 'application/json'
-      //}
-    //}).then(res => res.json())
-    //.catch(error => console.error('Error:', error))
-    //.then(response => console.log('Success:', response));
-
-    
-    //$("#cargadeMaterial").text($("form").serialize());
-    //console.log("hola");
-    
-  //});
+ 
 
  
 

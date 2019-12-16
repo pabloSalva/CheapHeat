@@ -51,6 +51,7 @@ urlpatterns = [
     #urls de constructores
     path('constructor/', views.construccion, name= "constructor"),
     path('constructor/nuevaVivienda', views.nueva, name="nuevaVivienda"),
+    path('constructores/material_list', views.ListaMaterial.as_view(), name="listaMateriales"),
 
 
 

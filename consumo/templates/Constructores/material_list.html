@@ -1,0 +1,109 @@
+{% extends 'consumo/ppal.html' %}
+{% load static %}
+
+{% block title %}
+<title>Materiales de construccion</title>
+{% endblock  %}
+
+
+{% block content %}
+<h1 class="text-secondary">Construcción de vivienda energéticamente eficiente</h1>
+
+<h2>materiales</h2>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Espesor</th>
+        <th scope="col">Transmitancia térmica</th>
+        <th scope="col">Estado</th>
+        <th scope="col"></th>
+        <th scope="col"></th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for material in object_list %}
+      <tr> 
+        <th scope="row">{{material.nombre_material}}</th>
+        <td>{{material.tipo}}</td>
+        <td>{{material.espesor}}</td>
+        <td>{{material.transmitancia_termica}}</td>
+        <td>{{material.estado}}</td>
+        <td>
+          <button class="btn btn-secondary">editar</button>
+        </td>
+        <td>
+          <button class="btn btn-danger">eliminar</button>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+
+
+
+
+<!-- boton a formulario de carga de materiales nuevos -->
+<button type="button" class="btn btn-primary" id="agregarMaterial" data-toggle="modal" data-target="#exampleModal" >Agregar material</button>
+
+
+<!-- modal formulario de carga de material -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div  class="modal-body">
+  
+          <form id="formulario1">
+            <div class="form-group">
+              <label class="col-form-label">nombre del material</label>
+              <input type="text" class="form-control" id="nombreMaterial" name="nombre_material">
+            </div>
+            
+            <div class="form-group">
+              <label class="col-form-label">tipo de material</label>
+              <input type="text" class="form-control" id="tipoMaterial" name="tipo">
+            </div>
+  
+            <div class="form-group">
+              <label class="col-form-label">espesor</label>
+              <input type="text" class="form-control" id="espesor" name="espesor">
+            </div>
+            
+            <div class="form-group">
+              <label class="col-form-label">conductividad térmica</label>
+              <input type="text" class="form-control" id="conductividadTermica" name="conductividad_termica">
+            </div>
+            
+            <div class="form-group">
+              <label class="col-form-label">estado</label>
+              <input type="text" class="form-control" id="estado" name="estado">
+            </div>
+  
+            
+            <button type="submit" class="btn btn-primary" id="cargaMaterial" >Crear</button>
+  
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- fin modal carga de material -->
+  
+ 
+{% endblock content%}
+
+{% block extraJS %}
+    <script src="{% static 'js/appConstructores.js' %}"></script>
+{% endblock %}
