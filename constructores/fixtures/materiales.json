@@ -1,0 +1,56 @@
+[
+{
+    "model": "consumo.material",
+    "pk": 1,
+    "fields": {
+        "nombre_material": "vidrio incoloro",
+        "tipo": "vidrio",
+        "espesor": 0.0,
+        "transmitancia_termica": 0.0,
+        "estado": "solido",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.material",
+    "pk": 2,
+    "fields": {
+        "nombre_material": "vidrio claro",
+        "tipo": "vidrio",
+        "espesor": 0.004,
+        "transmitancia_termica": 0.05,
+        "estado": "solido",
+        "users": []
+    }
+},
+{
+    "model": "consumo.material",
+    "pk": 3,
+    "fields": {
+        "nombre_material": "Ladrillo hueco",
+        "tipo": "Ladrillo",
+        "espesor": 0.0,
+        "transmitancia_termica": 0.0,
+        "estado": "Solido",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.material",
+    "pk": 4,
+    "fields": {
+        "nombre_material": "hormigon armado",
+        "tipo": "hormigon",
+        "espesor": 0.3,
+        "transmitancia_termica": 0.2,
+        "estado": "solido",
+        "users": [
+            1
+        ]
+    }
+}
+]

@@ -1,0 +1,28 @@
+[
+{
+    "model": "consumo.entidad",
+    "pk": 1,
+    "fields": {
+        "nombre": "EDELAP",
+        "tipo_entidad": "electrica",
+        "users": [],
+        "localidades": [
+            3
+        ]
+    }
+},
+{
+    "model": "consumo.entidad",
+    "pk": 2,
+    "fields": {
+        "nombre": "EDEA",
+        "tipo_entidad": "electrica",
+        "users": [
+            1
+        ],
+        "localidades": [
+            4
+        ]
+    }
+}
+]

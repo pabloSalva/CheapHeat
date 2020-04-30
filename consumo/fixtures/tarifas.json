@@ -1,0 +1,17 @@
+[
+{
+    "model": "consumo.tarifas",
+    "pk": 1,
+    "fields": {
+        "entidad": 1,
+        "fech_ini": "2019-05-01",
+        "fech_fin": "2020-05-01",
+        "precioKwh": 3.0002,
+        "codigo": "T1-R",
+        "desde": 150,
+        "hasta": 325,
+        "cargofijo": 240.61,
+        "tipo_tarifa": "T1-R2:residencial"
+    }
+}
+]

@@ -1,0 +1,34 @@
+[
+{
+    "model": "consumo.partido",
+    "pk": 1,
+    "fields": {
+        "nombre_partido": "La Plata",
+        "provincia": 1
+    }
+},
+{
+    "model": "consumo.partido",
+    "pk": 2,
+    "fields": {
+        "nombre_partido": "La Plata",
+        "provincia": 1
+    }
+},
+{
+    "model": "consumo.partido",
+    "pk": 3,
+    "fields": {
+        "nombre_partido": "La Plata",
+        "provincia": 1
+    }
+},
+{
+    "model": "consumo.partido",
+    "pk": 4,
+    "fields": {
+        "nombre_partido": "General Pueyrred\u00f3n",
+        "provincia": 1
+    }
+}
+]

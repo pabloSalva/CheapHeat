@@ -1,0 +1,9 @@
+[
+{
+    "model": "consumo.provincia",
+    "pk": 1,
+    "fields": {
+        "nombre_provincia": "Buenos Aires"
+    }
+}
+]

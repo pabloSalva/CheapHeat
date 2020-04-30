@@ -1,0 +1,102 @@
+[
+{
+    "model": "consumo.artefacto",
+    "pk": 1,
+    "fields": {
+        "nombre_artefacto": "Aire Acondicionado",
+        "consumo": 3200,
+        "eficiencia": "A",
+        "categoria": "Aires",
+        "descripcion": "Aire Split FC",
+        "marca": "Panasonic",
+        "modelo": "PAS32H17NI",
+        "tipo": "Electrico",
+        "users": []
+    }
+},
+{
+    "model": "consumo.artefacto",
+    "pk": 2,
+    "fields": {
+        "nombre_artefacto": "Calefactor",
+        "consumo": 2000,
+        "eficiencia": "S/N",
+        "categoria": "Calefactores",
+        "descripcion": "Panel calefactor",
+        "marca": "ExaHome",
+        "modelo": "EXA-2000",
+        "tipo": "Electrico",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.artefacto",
+    "pk": 3,
+    "fields": {
+        "nombre_artefacto": "Calefactor",
+        "consumo": 2200,
+        "eficiencia": "S/N",
+        "categoria": "Calefactores",
+        "descripcion": "Caloventor",
+        "marca": "Liliana",
+        "modelo": "PPV300",
+        "tipo": "Electrico",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.artefacto",
+    "pk": 4,
+    "fields": {
+        "nombre_artefacto": "Calefactor T.Bal.",
+        "consumo": 2400,
+        "eficiencia": "S/N",
+        "categoria": "Calefactores",
+        "descripcion": "Tiro balanceado",
+        "marca": "Bestron",
+        "modelo": "TB 2415",
+        "tipo": "Gas",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.artefacto",
+    "pk": 5,
+    "fields": {
+        "nombre_artefacto": "Calefactor T.Bal.",
+        "consumo": 5700,
+        "eficiencia": "S/N",
+        "categoria": "Calefactores",
+        "descripcion": "Tiro balanceado",
+        "marca": "Volcan",
+        "modelo": "46312VN",
+        "tipo": "Gas",
+        "users": [
+            1
+        ]
+    }
+},
+{
+    "model": "consumo.artefacto",
+    "pk": 6,
+    "fields": {
+        "nombre_artefacto": "Calefactor T.Bal.",
+        "consumo": 3800,
+        "eficiencia": "S/N",
+        "categoria": "Calefactores",
+        "descripcion": "Tiro balanceado",
+        "marca": "Volcan",
+        "modelo": "43712VE",
+        "tipo": "Gas",
+        "users": [
+            1
+        ]
+    }
+}
+]

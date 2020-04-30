@@ -1,0 +1,38 @@
+[
+{
+    "model": "consumo.localidad",
+    "pk": 1,
+    "fields": {
+        "nombre_localidad": "Arana",
+        "partido": 1,
+        "zona_bioambiental": "IIIb"
+    }
+},
+{
+    "model": "consumo.localidad",
+    "pk": 2,
+    "fields": {
+        "nombre_localidad": "Arana",
+        "partido": 1,
+        "zona_bioambiental": "IIIb"
+    }
+},
+{
+    "model": "consumo.localidad",
+    "pk": 3,
+    "fields": {
+        "nombre_localidad": "Arana",
+        "partido": 3,
+        "zona_bioambiental": "IIIb"
+    }
+},
+{
+    "model": "consumo.localidad",
+    "pk": 4,
+    "fields": {
+        "nombre_localidad": "Chapadmalal",
+        "partido": 4,
+        "zona_bioambiental": "IIIb"
+    }
+}
+]
